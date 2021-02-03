@@ -5,6 +5,7 @@
   "author": "Gabriel Silva <gabrielsos99@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
     "@types/jest": "^26.0.18",
     "@types/node": "^14.14.11",
     "@types/validator": "^13.1.1",
@@ -33,6 +34,7 @@
     "test:ci": "yarn test -- --coverage"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "validator": "^13.5.2"
   }
 }
